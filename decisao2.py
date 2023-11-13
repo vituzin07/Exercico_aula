@@ -27,12 +27,9 @@ categoria = int(input("categoria: "))
 
 if categoria == 1:
     print("R$ 10,00")
-else:
-    if categoria == 2:
-        print("R$ 18,00")
-    else: 
-        if categoria == 3:
-            print("R$ 23,00")
-        else:
-            if categoria == 4:
-                print("R$ 26,00")
+elif categoria == 2:
+     print("R$ 18,00")
+elif categoria == 3:
+     print("R$ 23,00")
+elif categoria == 4:
+     print("R$ 26,00")
