@@ -1,4 +1,5 @@
 # questão 1
+
 a = int(input("Insira o primeiro valor inteiro: "))
 b = int(input("Insira o segundo valor inteiro: "))
 if a>b:
@@ -7,12 +8,14 @@ if b>a:
     print(f'{b} é maior que {a}')
 
 # questão 2
+
 velocidade = float(input("Insira a velocidade: "))  
 if velocidade>80:
     multa= (velocidade-80)*5.0
     print(f'Você terá que pagar R$ {multa} ')
 
 # questão 3
+
 velocidade = float(input('Insira a velocidade: '))
 valor_80 = 0
 valor_140 = 0
